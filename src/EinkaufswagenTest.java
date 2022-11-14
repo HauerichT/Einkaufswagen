@@ -3,7 +3,8 @@ public class EinkaufswagenTest {
 
         // Beispiel bzw. Test aus der Aufgabe inkl. Erweiterung zur Überprüfung der Grenzfälle
         Einkaufswagen cart = new Einkaufswagen();
-        // Einkaufswagen zu beginn leer
+
+        // Einkaufswagen zu Beginn leer
         cart.size();
 
         cart.addToCart("Birne");
