@@ -17,6 +17,9 @@ public class Einkaufswagen {
 
     // entfernt das übergebene item aus dem Einkaufswagen
     public void removeFromCart(String item) {
+        if (!cart.remove(item)) {
+            System.out.println(item + " ist nicht im Einkaufswagen enthalten.");
+        }
         cart.remove(item);
     }
 
